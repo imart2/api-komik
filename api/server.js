@@ -777,6 +777,4 @@ app.get('/api/chapter/:chapterId', async (req, res) => {
   
 
 // Jalankan server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+export default app;
